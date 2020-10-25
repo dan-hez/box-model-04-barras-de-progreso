@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(138, 138, 138, 0.849);
+}
+.contenedor{
+    width: 600px;
+    height: 330px;
+    background-color: #404E5C;
+    border-radius: 20px;
+    position: relative;
+    top: 120px;
+    left: 350px;
+    box-shadow: 1px 5px 10px 1px rgba(56, 29, 42, 0.349);
+}
+.barra{
+    width: 500px;
+    height: 30px;
+    background-color: #4F6272;
+    border-radius: 100px;
+    position: relative;
+    top: 15%;
+    left: 8%;
+    margin-bottom: 3%;
+    padding: 4px 0 4px 5px;
+}
+.progreso{
+    border-radius: 100px;
+    padding: 3px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 500;   
+}
+p{
+    text-align: right;
+}
+.uno{
+    width: 10%;
+    background-color: red;
+    color: rgb(241, 241, 241);
+}
+.dos{
+    width: 25%;
+    background-color: orangered;
+    color: rgb(231, 231, 231);
+}
+.tres{
+    width: 50%;
+    background-color: orange;
+    color: rgb(241, 241, 241);
+}
+.cuatro{
+    width: 75%;
+    background-color: yellow;
+    color: rgb(114, 114, 114);
+}
+.cinco{
+    width: 90%;
+    background-color: yellowgreen;
+    color: rgb(71, 71, 71);
+}
